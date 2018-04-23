@@ -2,6 +2,21 @@ body {
     background-color: #bc7d2c;
 }
 
+.main .all span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+/*
+    Tutaj nie można użyć wielkości i szerokości z dowolnymi parametrami (np.25 px) ponieważ tekst się nie wyśrodkuje. Można jedynie użyć, ale z tego co widzę nie jest to potrzebene: ---
+    height: auto;
+    width: auto;
+    
+*/
+/*Wstawienie tutaj --- 
+    text-align: center;
+  nic nie da, text-align należy wstawić niżej tam, gdzie odnosimy się do wszystkich div'ów (czyli z klasą all)'*/
+}
 .main {
     position: relative;
     border: 1px solid #000;
@@ -10,27 +25,37 @@ body {
     height: 300px;
 }
 
+.main .all {
+    text-align: center;
+/* Tu wstawiamy tekst-align --- aby wyśrodkować tekst Numerów co widać na podglądzie strony */
+    position: absolute;
+    border: 3px solid #000;
+    box-sizing: border-box;
+}
+
 .main .all.number1 {
 /*Jeżeli klasa w innym elemencie to spacja między klasami, jeżeli dwie klasy występujące po sobie (czyli tutaj <div class="all number1"> to bez spacji tak jak wyżej to widać. Inaczej mówiąc jak jeden cudzysłów i w nim kilka klas to bez spacji*/
     margin: 25px;
-    position: absolute;
     height: 100px;
     width: 150px;
     background-color: blanchedalmond;
     transform: skewX(45deg) rotate(45deg) translateX(50%);
-    border: 3px solid #000;
 }
 
 .main .all.number2 {
     background-color: aqua;
-    border: 3px solid #000;
 /*    Ustawienie poniżej sprawi, iż nasz div znajdzie się dokładnie na środku elementu nadrzędnego (takie ustawienie działa zawsze, ale potrzebne są wszystkie poniższe elementy  */
-    position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;   
+}
+
+.main .all.number3 {
+    height: 25px;
+    width: 65px;
+    background-color: #3a6c3c;
 }

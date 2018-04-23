@@ -18,8 +18,8 @@ var c = (a + b)/b;
 console.log(c);
 
 var liczbyIlitery = ['abc', [2, 3, 5, 7], 'def', 3, 'LITERY']
-//W console.log --- cztery w zwykłym nawiasie przed nawiasem kwadratowym z cyframi oznacza cztery elementy wewnątrz kwadratowego nawiasu.
+//W console.log --- cztery w zwykłym nawiasie przed nawiasem kwadratowym z cyframi oznacza cztery elementy wewnątrz kwadratowego nawiasu. Cały ten nawias zostanie odczytany jako jeden element (tak naprawdę --- co można zobaczyć później w console.log --- dodając numer indeksu, który ma nasz wewnętrzny nawias)
 
 console.log(liczbyIlitery);
 
-console.log((liczbyIlitery) + ' --- Właśnie tak dodajemy treść!!!');
+console.log((liczbyIlitery[1]) + ' --- Właśnie tak dodajemy treść!!!');
