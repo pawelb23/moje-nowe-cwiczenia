@@ -20,4 +20,6 @@ console.log(c);
 var liczbyIlitery = ['abc', [2, 3, 5, 7], 'def', 3, 'LITERY']
 //W console.log --- cztery w zwykłym nawiasie przed nawiasem kwadratowym z cyframi oznacza cztery elementy wewnątrz kwadratowego nawiasu.
 
+console.log(liczbyIlitery);
+
 console.log((liczbyIlitery) + ' --- Właśnie tak dodajemy treść!!!');
