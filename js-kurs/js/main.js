@@ -57,3 +57,18 @@ while (cyfraLiczba >= 0) {
     console.log('100 razy w dół!');
     cyfraLiczba--;
 }
+
+console.log('============================');
+
+var kolory = ['czerwony', 'niebieski', 'żółty', 'zielony', 'brązowy', 'czarny', 'fioletowy'];
+
+for (var i = 0; kolory.length > i; i++) {
+    {
+        console.log(kolory[i] + ' to jeden z kolorów');
+    }
+    if (kolory[i] === 'niebieski') {
+        //Tu działają i == dwa i === trzy znaki równa się!!!
+        //aby zadziałało WAŻNE jest aby dodać do naszego var'a (w tym przypadku - kolory) w nawiasie '[i]'. Dzieje się tak dlatego, że kolory to cała tabelka, zaś kolory[i] to kolejne elementy w tabelce. Tak więc, program przechodzi po kolejnych elementach i jeżeli znajdzie szukany to wykonuje polecenie.
+        console.log('to jest kolor - ' + kolory[i]);
+    }
+}
