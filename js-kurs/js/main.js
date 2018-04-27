@@ -72,3 +72,36 @@ for (var i = 0; kolory.length > i; i++) {
         console.log('to jest kolor - ' + kolory[i]);
     }
 }
+
+console.log('============================');
+
+//========================================
+
+//Poniżej --- Dwa sposoby na tego samego typu funkcję.
+
+//1.SPOSÓB
+function addNumbers() {
+    var a = 5;
+    var b = 10;
+    var sum = a + b;
+    return sum;
+}
+
+console.log(addNumbers());
+
+console.log('============================');
+
+//2.SPOSÓB
+function substractNumbers( c, d ) {
+    var result = c - d;
+    return result;
+}
+
+console.log(substractNumbers( 4, 11 ));
+
+console.log('============================');
+
+function powiadomienie() {
+    alert('Uwaga, uwaga!!! To tyle :)');
+}
+powiadomienie();
