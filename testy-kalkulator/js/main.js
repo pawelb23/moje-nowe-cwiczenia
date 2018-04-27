@@ -1,6 +1,8 @@
 'use strict';
+
 //console.log('czy działa');
 function dzial(btn) {
+    var znaki 
     if(btn=="=") {
 //        wynik równania
         document.getElementById("wynik").value = eval(document.getElementById("wynik").value);     
