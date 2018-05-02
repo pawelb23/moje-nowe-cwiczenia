@@ -3,8 +3,8 @@
 //1>>>SPOSÓB<<<
 
 function tableAverage(arrJeden) {
-    let sum = 0;
-    for (let i=0; i<arrJeden.length; i++) {
+    var sum = 0;
+    for (var i=0; i<arrJeden.length; i++) {
 //arrJeden.length --- pokaże w console.log ilość elementów (ogółem --- czyli cyfrę 7), zaś arrJeden[i] pokaże w console.log kolejne cyfry z tabeli (czyli --- 1,2,3,4,5,6,7).  
         
 //        console.log(arrJeden[i]);
@@ -30,8 +30,8 @@ console.log('==========================');
 //2>>>SPOSÓB<<<
 
 function tableAverageDwa(arrDwa) {
-    let sum = 0;
-    for (let j=0; j<arrDwa.length; j++) {
+    var sum = 0;
+    for (var j=0; j<arrDwa.length; j++) {
 //arrDwa.length --- pokaże w console.log ilość elementów (ogółem --- czyli cyfrę 7), zaś arrDwa[j] pokaże w console.log kolejne cyfry z tabeli (czyli --- 1,2,3,4,5,6,7).  
         
 //        console.log(arrDwa[j]);
