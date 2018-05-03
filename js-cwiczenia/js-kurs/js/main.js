@@ -30,17 +30,17 @@ console.log('============================');
 
 var autka = ['Maluch', 'Duży Fiat', 'Polonez', 'Żuk', 'Syrenka', 'Warszawa'];
 
-autka.push('Trabant');
 
 var autkoZpushem = 'Trabant';
+
+autka.push(autkoZpushem);
+
 
 for (var i = 0; i <= 6; i++) {
     if (i == 4) {
         console.log('Ten samochód kojarzy się z Warszawą --- ' + autka[i]);
     } else if (i == 5) {
         console.log('Bardzo dobra nazwa --- ' + autka[i]);
-    } else if (autka == autkoZpushem) {
-        console.log('Do tego auta użyłem push-a --- ' + autka[i]);
     } else {
         console.log('Legenda PRL-u --- ' + autka[i]);
     }
@@ -92,12 +92,12 @@ console.log(addNumbers());
 console.log('============================');
 
 //2.SPOSÓB
-function substractNumbers( c, d ) {
+function substractNumbers(c, d) {
     var result = c - d;
     return result;
 }
 
-console.log(substractNumbers( 4, 11 ));
+console.log(substractNumbers(4, 11));
 
 console.log('============================');
 

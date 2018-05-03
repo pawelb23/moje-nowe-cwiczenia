@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(127, 240, 255, 0.5);
+}
+
+h1 {
+    width: 15%;
+    color: blue;
+    border: 10px solid red;
+    text-align: center;
+}
+
+div#zfleksem {
+    display: flex;
+/* flexa wrzucamy zawsze na głównego div'a*/
+}
+
+span.dwa {
+/*
+    display: inline-flex;
+    float: left;
+*/
+/* Float - likwiduje przerwy (automatyczne marginesy) pomiędzy elementami */
+/* float: left - przysuwa również elementy do lewej strony ekranu, zaś float: right do prawej strony ekranu.*/
+/* Float przy flex'sie nie jest potrzebny */
+    height: 20em;
+    width: 150px;
+    border: 15px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.trzy2 {
+    flex: 1;
+}
+
+.trzy3 {
+    flex: 2;
+}
+
+.trzy4 {
+    flex: 3;
+}
+
+.trzy5 {
+    flex: 4;
+}
