@@ -19,7 +19,7 @@ div#zfleksem {
     /* flexa wrzucamy zawsze na głównego div'a*/
     box-shadow: 10px 10px 10px black;
     /* box-shadow - doda cień */
-    background-color: rgb(185, 125, 46, 0.7);
+    background-color: rgba(185, 125, 46, 0.7);
     text-align: center;
     line-height: 35px;
     margin-top: 20px;   
