@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+div#container {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+div#container-dwa {
+    height: 100vh;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+div.item {
+    flex: 1;
+    box-sizing: border-box;
+    border: 5px double brown;
+}
+
+div.number1 {
+    background-color: aquamarine;
+}
+
+div.number2 {
+    background-color: bisque;
+}
+
+div.number3 {
+    background-color: blueviolet;
+}
+
+div.number4 {
+    background-color: #131f1b;
+}
+
+div.number5 {
+    background-color: #986527;
+}
+
+div.number6 {
+    background-color: #c8abe3;
+}
