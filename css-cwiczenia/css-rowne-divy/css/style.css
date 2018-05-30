@@ -32,10 +32,14 @@ div.item {
 }
 
 span {
-    border: 5px solid red;
+    border: 5px dashed red;
     padding: 2%;
     /*    align-self: center;*/
     /*    align-self: center --- można dać zamiast align-items: center --- efekt będzie taki sam*/
+}
+
+div.number4, div.number5, div.number6 {
+    color: aliceblue;
 }
 
 
@@ -53,7 +57,6 @@ div.number3 {
 
 div.number4 {
     background-color: #131f1b;
-    color: white;
 }
 
 div.number5 {
