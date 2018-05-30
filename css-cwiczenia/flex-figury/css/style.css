@@ -19,12 +19,15 @@ div.flex-items {
     flex: 1;
 }
 
-div.flex-items.item1, div.inside-item2.small-item1, div.inside-item2.small-item2, div.flex-items.item3 {
+div.flex-items.item1,
+div.inside-item2.small-item1,
+div.inside-item2.small-item2,
+div.flex-items.item3 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;  
-    border: 5px solid black;
+    font-size: 50px;
+    border: 5px solid darkorange;
 }
 
 div.item1 {
