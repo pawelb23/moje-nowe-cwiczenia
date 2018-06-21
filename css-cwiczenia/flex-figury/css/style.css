@@ -5,7 +5,7 @@ body {
 
 div#container {
     border: 5px double black;
-    width: 60vw;
+    width: 65vw;
     height: 600px;
     margin: 0 auto;
     left: 0;
@@ -59,4 +59,6 @@ span {
     border: 3px dotted #2e96d6;
     text-transform: uppercase;
     color: #170d2a;
+    text-align: center;
+    padding: 2px;
 }
