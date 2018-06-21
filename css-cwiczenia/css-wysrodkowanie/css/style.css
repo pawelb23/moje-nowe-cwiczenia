@@ -1,11 +1,13 @@
 body {
-    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    background-color: #226060;
     margin: 0;
 }
 
 div#container {
     background-color: brown;
-    border: 5px dashed white;
+    border: 10px double #3c2626;
     height: 100px;
     width: 100px;
 
@@ -20,6 +22,7 @@ div#container {
 
 
 /*
+
 div.middle {
     position: absolute;
     background-color: black;
@@ -35,4 +38,40 @@ div.middle {
     left: 0;
     right: 0;
     margin: auto;
+}
+*/
+
+div.trojkat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 0;
+    width: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 75px solid blue;
+    text-align: center;
+}
+
+div.text {
+    background-color: rgba(108, 88, 63, 0.2);
+    padding: 1px;
+    height: 15px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 35px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 15px;
 }
