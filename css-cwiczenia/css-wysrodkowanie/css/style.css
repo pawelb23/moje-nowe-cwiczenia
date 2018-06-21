@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+div#container {
+    background-color: brown;
+    border: 5px dashed white;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*    Margin musi być - auto, a nie - 0 auto. Oprócz tego position musi być  - absolute, top - 0, bottom - 0, left - 0; right - 0. Tak można wyśrodkować div'a i ustawić element na środku strony.*/
+}
+
+
+/*
+div.middle {
+    position: absolute;
+    background-color: black;
+    border: 5px dashed white;
+    height: 100px;
+    width: 100px;
+    
+    top: 50%;
+    transform: translateY(-50%);
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
