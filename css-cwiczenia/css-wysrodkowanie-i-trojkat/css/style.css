@@ -3,6 +3,7 @@ body {
     width: 100vw;
     background-color: #226060;
     margin: 0;
+    overflow: hidden;
 }
 
 div#container {
@@ -11,12 +12,15 @@ div#container {
     height: 100px;
     width: 100px;
 
-    position: absolute;
+
+    /*    position: absolute;*/
     top: 0;
+    /*
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+*/
     /*    Margin musi być - auto, a nie - 0 auto. Oprócz tego position musi być  - absolute, top - 0, bottom - 0, left - 0; right - 0. Tak można wyśrodkować div'a i ustawić element na środku strony.*/
 }
 
@@ -42,11 +46,13 @@ div.middle {
 */
 
 div.trojkat {
+    /*
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+*/
     height: 0;
     width: 0;
     border-left: 75px solid transparent;
@@ -55,12 +61,33 @@ div.trojkat {
     text-align: center;
 }
 
+div#container,
+div.trojkat,
+div.text,
+div.prostokat {
+    position: absolute;
+
+}
+
+div#container,
+div.trojkat,
+div.text {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+div#container,
+div.trojkat {
+    bottom: 0;
+}
+
 div.text {
     background-color: rgba(108, 88, 63, 0.2);
     padding: 1px;
     height: 15px;
     width: 50px;
-    position: absolute;
+    /*    position: absolute;*/
     left: 0;
     right: 0;
     margin: auto;
@@ -74,4 +101,25 @@ div.text {
 span {
     text-transform: uppercase;
     font-size: 15px;
+}
+
+div.trojkat-dwa {
+    background-color: aliceblue;
+    height: 250px;
+    width: 250px;
+    transform: rotate(-45deg);
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+div.trojkat-dwa:hover {
+    background-color: goldenrod;
+}
+
+div.prostokat {
+    /*    position: absolute;*/
+    background-color: #226060;
+    height: 250px;
+    width: 500px;
+    margin-top: -125px;
 }
