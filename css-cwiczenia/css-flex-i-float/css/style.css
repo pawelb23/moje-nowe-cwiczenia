@@ -6,7 +6,7 @@ h1 {
     width: 15%;
     color: blue;
     border: 16px double red;
-/* podwójne obramowanie */
+    /* podwójne obramowanie */
     text-align: center;
     margin: auto;
     padding: 5px;
@@ -22,12 +22,11 @@ div#zfleksem {
     background-color: rgba(185, 125, 46, 0.7);
     text-align: center;
     line-height: 35px;
-    margin-top: 20px;   
-/*
+    margin-top: 20px;
+    /*
     display: inline-flex;
     width: 600px;
 */
-
     /*    width(szerokości) używamy raczej tylko z inline-flex (obserwacje własne). W przypadku display: flex --- domyślnie wartość width ustawiona jest na 100% szerokości, więc ustawianie tutaj width nie ma za bardzo sensu */
 }
 
@@ -77,14 +76,14 @@ span.a {
 }
 
 div#zfloat {
-/*    position: relative;*/
+    /*    position: relative;*/
     margin-top: 50px;
     height: auto;
     width: auto;
 }
 
 div.podstawowa {
-/*    box-sizing: border-box; --- tutaj nie pasuje bo tekst wyłazi po za elementy przez paddingi itp. */
+    /*    box-sizing: border-box; --- tutaj nie pasuje bo tekst wyłazi po za elementy przez paddingi itp. */
     float: left;
     margin: 15px;
     padding: 15px;

@@ -22,6 +22,8 @@ function tableAverage(arrJeden) {
 
 var tableNumbers = [1,2,3,4,5,6,7,8,9];
 
+//console.log(tableNumbers[2]);
+
 console.log('Wynik --- ' + tableAverage(tableNumbers));
 
 console.log('==========================');
