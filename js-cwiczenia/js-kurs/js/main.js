@@ -18,7 +18,7 @@ var c = (a + b) / b;
 console.log(c);
 
 var liczbyIlitery = ['abc', [2, 3, 5, 7], 'def', 3, 'LITERY']
-//W console.log --- cztery w zwykłym nawiasie przed nawiasem kwadratowym z cyframi oznacza cztery elementy wewnątrz kwadratowego nawiasu. Cały ten nawias zostanie odczytany jako jeden element (tak naprawdę --- co można zobaczyć później w console.log --- dodając numer indeksu, który ma nasz wewnętrzny nawias)
+//W console.log --- cztery w zwykłym nawiasie przed nawiasem kwadratowym z cyframi oznacza cztery elementy wewnątrz kwadratowego nawiasu. Cały ten nawias zostanie odczytany jako jeden element, "czyli [2,3,5,7] - to jeden element" (tak naprawdę --- co można zobaczyć później w console.log --- dodając numer indeksu, który ma nasz wewnętrzny nawias)
 
 console.log(liczbyIlitery);
 
@@ -37,10 +37,14 @@ autka.push(autkoZpushem);
 
 
 for (var i = 0; i <= 6; i++) {
+
     if (i == 4) {
+
         console.log('Ten samochód kojarzy się z Warszawą --- ' + autka[i]);
+
     } else if (i == 5) {
         console.log('Bardzo dobra nazwa --- ' + autka[i]);
+
     } else {
         console.log('Legenda PRL-u --- ' + autka[i]);
     }
@@ -105,3 +109,21 @@ function powiadomienie() {
     alert('Uwaga, uwaga!!! To tyle :)');
 }
 powiadomienie();
+
+//console.log('============================');
+
+var koloryDwa = ['czerwony', 'niebieski', 'żółty', 'zielony', 'brązowy', 'czarny', 'fioletowy'];
+
+for (var i = 0; koloryDwa.length > i; i++) {
+    
+    if (koloryDwa[i] === 'niebieski') {
+        //Tu działają i == dwa i === trzy znaki równa się!!!
+        //aby zadziałało WAŻNE jest aby dodać do naszego var'a (w tym przypadku - kolory) w nawiasie '[i]'. Dzieje się tak dlatego, że kolory to cała tabelka, zaś kolory[i] to kolejne elementy w tabelce. Tak więc, program przechodzi po kolejnych elementach i jeżeli znajdzie szukany to wykonuje polecenie.
+        console.log('to jest kolor - ' + koloryDwa[i]);
+        
+    } else {  
+        console.log(koloryDwa[i] + ' to jeden z kolorów');
+    }
+}
+
+console.log('============================');
