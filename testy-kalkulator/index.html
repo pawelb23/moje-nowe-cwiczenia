@@ -4,16 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator</title>
+    
+<!--    css - plik-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--    zoom-owanie na małych ekranach-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--    zoom-owanie na małych ekranach-->
+
 </head>
 
 <body>
     <div id="container">
-        <div id="wyswietlacz"><input type="text" id="wynik" name="wynik" readonly></div>
-<!--        readonly - blokuje możliwość wpisywania dowolnego tekstu w polu tekstowym-->
+        <div id="wyswietlacz"><input type="text" id="wynik" name="wynik" placeholder="Ready" readonly></div>
+        <!--        readonly - blokuje możliwość wpisywania dowolnego tekstu w polu tekstowym -->
+        <!--      placeholder="0"  - (można dodać do <input> czyli np.  <input type="text" placeholder="0" id="wynik" itd.... ) widoczne będzie w input 0 (na stronie html oczywiście) ale tylko w stylu "komentarza"-->
+
+
         <div id="pierwszy-wiersz">
             <p class="delete">
-               <button class="del" onclick="dzial('del')" value="del">Del</button>
+                <button class="del" onclick="dzial('del')" value="del">Del</button>
             </p>
             <p class="margines">
                 <button class="procent" onclick="dzial('%')" value="%">%</button>
@@ -77,7 +87,10 @@
             <span class="kalkulator">Kalkulator</span>
         </p>
     </div>
+    
+<!--    js - plik-->
     <script src="js/main.js"></script>
+    script:src
 </body>
 
 </html>

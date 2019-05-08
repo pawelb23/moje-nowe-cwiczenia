@@ -4,15 +4,23 @@ body {
 }
 
 div#container {
+    
     border: 5px double black;
     width: 65vw;
     height: 600px;
-    margin: 0 auto;
+    margin: auto;
     left: 0;
     right: 0;
     display: flex;
     margin-top: 50vh;
     transform: translateY(-50%);
+/*
+    top: 0;
+    bottom: 0;
+    position: absolute;
+*/
+    
+/*    do wyśrodkowania można użyć albo margin-top i transform, albo tutaj zakomentowanych top, bottom i position: absolute (wtedy margin-top i transform trzeba zakomentować)*/
 }
 
 div.flex-items {

@@ -119,6 +119,7 @@ span, span.rotat {
     display: inline-block;
     text-transform: uppercase;
     font-size: 15px;
+    cursor: pointer;
 }
 
 span.rotat:hover {

@@ -122,7 +122,7 @@ for (var i = 0; koloryDwa.length > i; i++) {
 
     if (koloryDwa[i] === 'niebieski') {
         //Tu działają i == dwa i === trzy znaki równa się!!!
-        //aby zadziałało WAŻNE jest aby dodać do naszego var'a (w tym przypadku - kolory) w nawiasie '[i]'. Dzieje się tak dlatego, że kolory to cała tabelka, zaś kolory[i] to kolejne elementy w tabelce. Tak więc, program przechodzi po kolejnych elementach i jeżeli znajdzie szukany to wykonuje polecenie.
+        //aby zadziałało WAŻNE jest aby dodać do naszego var'a (w tym przypadku - kolory) w nawiasie '[i]'. Dzieje się tak dlatego, że kolory to cała tabelka, zaś kolory[i] to kolejne elementy w tablicy. Tak więc, program przechodzi po kolejnych elementach i jeżeli znajdzie szukany to wykonuje polecenie.
         console.log('to jest kolor - ' + koloryDwa[i]);
 
     } else {
