@@ -78,7 +78,6 @@ console.log('');
 //    append(string) - metoda doda zawartość przekazaną jako argument (może być kod html lub selektor) do danego elementu,
 //    appendTo(selektor) - metoda doda obiekt jQuery do elementu o danym selektorze,
 
-
 //Modyfikowanie elementów
 //➔ show() pokazuje bieżący element
 //➔ hide() ukrywa bieżący element
